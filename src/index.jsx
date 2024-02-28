@@ -1,11 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import reportWebVitals from "./reportWebVitals";
+// import reportWebVitals from "./reportWebVitals";
+
+import TopMenu from "./componente/web/top-menu/top-menu";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
+    <TopMenu />
     <h1>Projeto Aqui</h1>
   </React.StrictMode>
 );
