@@ -6,6 +6,9 @@ const TopMenu = () => {
   return (
     <header>
       <div className="left-top-menu">
+        <h3>Modulo Financeiro</h3>
+      </div>
+      <div className="center-top-menu">
         <div className="top-menu-search">
           <input
             id="input-search"
